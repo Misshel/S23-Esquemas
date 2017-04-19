@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  display: block;
+  margin:5% auto;
+  width: 112px;
+  height: 112px;
+}
+
+div{
+  display: inline-block;
+}
+
+.primHijo, #blue, #red{
+  width: 184px;
+  height: 184px;
+}
+
+ #blue, #red{
+  padding: 91px;
+}
+
+.segHijo{
+  width: 91px;
+  height: 91px;
+}
+
+#red{
+  background-color: #ED462F;
+  position: relative;
+}
+
+#purple{
+  background-color: #752E80;
+}
+
+#yellow{
+  background-color: #FFF835;
+  position: absolute;
+  left: 91px;
+}
+
+#blue{
+  position: relative;
+  background-color: #0048FB;
+}
+
+#green{
+  background-color: #387804;
+}
+
+#black{
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
